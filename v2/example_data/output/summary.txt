@@ -1,0 +1,25 @@
+TCGA-ESCA多组学数据预处理摘要
+================================
+处理时间: 2026-03-24 09:07:07.577877
+患者数量: 2
+共同基因数量: 5
+张量形状: (5, 2, 3)
+通道顺序: 0=RNA-seq (TPM), 1=CNV (copy number), 2=Methylation (beta)
+
+输入文件统计:
+  RNA-seq样本: 2
+  CNV样本: 2
+  甲基化样本: 2
+
+基因统计:
+  RNA基因数: 5
+  CNV基因数: 5
+  甲基化基因数: 10
+  基因映射数: 5
+
+输出文件:
+  1. tensor.npy - 三维张量数据
+  2. genes.txt - 基因名称列表
+  3. patients.txt - 患者ID列表
+  4. gene_mapping.txt - 基因ID到基因名映射
+  5. summary.txt - 处理摘要
